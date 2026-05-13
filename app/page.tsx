@@ -212,30 +212,35 @@ export default function FolderArkady() {
                 ))}
               </ul>
               {index === 3 && (
-  <div className="mt-10 flex justify-center">
+  <div className="mt-8 flex justify-center">
     <a
       href="https://wa.me/5511930374865"
       target="_blank"
       rel="noopener noreferrer"
       className="
-  inline-flex items-center gap-2
-  px-6 py-3
-  rounded-2xl
-  bg-cyan-400 hover:bg-cyan-300
-  text-white
-  font-semibold
-  text-base
-  transition-all duration-300
-  hover:scale-105
-  shadow-[0_0_30px_rgba(34,211,238,0.35)]
-"
+        inline-flex items-center justify-center gap-2
+        w-full sm:w-auto
+        max-w-xs
+        px-5 py-3
+        rounded-2xl
+        bg-blue-500 hover:bg-blue-400
+        text-white
+        font-semibold
+        text-sm sm:text-base
+        text-center
+        transition-all duration-300
+        hover:scale-105
+        shadow-[0_0_30px_rgba(34,211,238,0.25)]
+      "
     >
       <MessageCircle
-  size={18}
-  className="text-white"
-/>
+        size={18}
+        className="text-white shrink-0"
+      />
 
-      Solicitar Estrutura Completa
+      <span className="leading-tight">
+        Solicitar Estrutura Completa
+      </span>
     </a>
   </div>
 )}
