@@ -204,8 +204,8 @@ export default function FolderArkady() {
     </p>
 
     <a
-  href="mailto:comercial@arkady.com.br"
-  className="text-cyan-400 hover:text-cyan-300 transition"
+href="mailto:comercial@arkady.com.br"
+className="block text-cyan-400 hover:text-cyan-300 transition mb-2"
 >
   ✉️ comercial@arkady.com.br
 </a>
@@ -213,7 +213,7 @@ export default function FolderArkady() {
     <a
   href="https://arkady.com.br"
   target="_blank"
-  className="text-cyan-400 hover:text-cyan-300 transition"
+  className="block text-cyan-400 hover:text-cyan-300 transition"
 >
   🌐 arkady.com.br
 </a>
