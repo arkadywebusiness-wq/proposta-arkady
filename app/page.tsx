@@ -329,7 +329,7 @@ export default function FolderArkady() {
     rel="noopener noreferrer"
     className="
       inline-flex items-center justify-center gap-3
-      px-8 py-4
+      px-6 py-3
       rounded-2xl
       bg-green-500 hover:bg-green-400
       text-white font-bold text-lg
@@ -352,7 +352,7 @@ export default function FolderArkady() {
     rel="noopener noreferrer"
     className="
       inline-flex items-center justify-center gap-3
-      px-8 py-4
+     px-6 py-3
       rounded-2xl
       bg-green-500 hover:bg-green-400
       text-white font-bold text-lg
