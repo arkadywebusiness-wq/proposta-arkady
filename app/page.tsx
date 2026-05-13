@@ -218,19 +218,22 @@ export default function FolderArkady() {
       target="_blank"
       rel="noopener noreferrer"
       className="
-        inline-flex items-center gap-3
-        px-8 py-4
-        rounded-2xl
-        bg-cyan-400 hover:bg-cyan-300
-        text-black
-        font-bold
-        text-lg
-        transition-all duration-300
-        hover:scale-105
-        shadow-[0_0_30px_rgba(34,211,238,0.35)]
-      "
+  inline-flex items-center gap-2
+  px-6 py-3
+  rounded-2xl
+  bg-cyan-400 hover:bg-cyan-300
+  text-white
+  font-semibold
+  text-base
+  transition-all duration-300
+  hover:scale-105
+  shadow-[0_0_30px_rgba(34,211,238,0.35)]
+"
     >
-      <MessageCircle size={22} />
+      <MessageCircle
+  size={18}
+  className="text-white"
+/>
 
       Solicitar Estrutura Completa
     </a>
@@ -366,7 +369,7 @@ export default function FolderArkady() {
   className="text-white"
 />
 
-  Falar com a Arkady
+  Falar com Andre Costa
 </a>
 
 </div>
