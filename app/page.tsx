@@ -67,7 +67,7 @@ export default function FolderArkady() {
 
             <div className="max-w-3xl">
               <h2 className="text-3xl md:text-5xl font-bold leading-tight">
-                Estrutura Contábil e Digital para MEI, ME e 
+                Estrutura Contábil e Digital para MEI, ME e EPPs
               </h2>
 
               <p className="mt-6 text-zinc-300 text-lg leading-relaxed">
