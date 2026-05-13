@@ -27,7 +27,7 @@ export default function FolderArkady() {
       items: [
         'Escrita contábil',
         'Apuração de tributos',
-        'Gestão de pró-labore',
+        'Gestão de Folha de Pagamento',
         'Obrigações acessórias',
         'Atendimento consultivo',
         'Organização documental básica',
