@@ -221,11 +221,10 @@ export default function FolderArkady() {
   <div className="mt-8 space-y-3 text-zinc-300">
 
    <p className="flex items-center gap-2">
-  <img
-    src="https://arkady.com.br/wp-content/uploads/2026/04/Design-sem-nome-38.png"
-    alt="Telefone"
-    className="w-5 h-5"
-  />
+  <Phone
+  size={18}
+  className="text-cyan-400"
+/>
 
   <span>(11) 93037-4865</span>
 </p>
@@ -234,11 +233,10 @@ export default function FolderArkady() {
   href="mailto:comercial@arkady.com.br"
   className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
 >
-  <img
-    src="https://arkady.com.br/wp-content/uploads/2026/04/Design-sem-nome-39.png"
-    alt="E-mail"
-    className="w-5 h-5"
-  />
+  <Mail
+  size={18}
+  className="text-cyan-400"
+/>
 
   <span>comercial@arkady.com.br</span>
 </a>
@@ -249,11 +247,10 @@ export default function FolderArkady() {
   rel="noopener noreferrer"
   className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
 >
-  <img
-    src="https://arkady.com.br/wp-content/uploads/2026/04/Design-sem-nome-40.png"
-    alt="Website"
-    className="w-5 h-5"
-  />
+  <Globe
+  size={18}
+  className="text-cyan-400"
+/>
 
   <span>arkady.com.br</span>
 </a>
