@@ -5,7 +5,7 @@ export default function FolderArkady() {
   price: "R$ 149,90",
   description:
     "Estrutura contábil e digital para MEIs que desejam crescer com organização, previsibilidade e apoio estratégico.",
-  features: [
+  items: [
     "Abertura e regularização MEI",
     "Emissão e suporte fiscal",
     "Organização financeira inicial",
