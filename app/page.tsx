@@ -1,3 +1,9 @@
+import {
+  Phone,
+  Mail,
+  Globe,
+  MessageCircle,
+} from "lucide-react";
 export default function FolderArkady() {
   const packages = [
     {
@@ -214,23 +220,42 @@ export default function FolderArkady() {
 
   <div className="mt-8 space-y-3 text-zinc-300">
 
-    <p>
-      📞 (11) 93037-4865
-    </p>
+   <p className="flex items-center gap-2">
+  <img
+    src="https://arkady.com.br/wp-content/uploads/2026/04/Design-sem-nome-38.png"
+    alt="Telefone"
+    className="w-5 h-5"
+  />
+
+  <span>(11) 93037-4865</span>
+</p>
 
     <a
-href="mailto:comercial@arkady.com.br"
-className="block text-cyan-400 hover:text-cyan-300 transition mb-2"
+  href="mailto:comercial@arkady.com.br"
+  className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
 >
-  ✉️ comercial@arkady.com.br
+  <img
+    src="https://arkady.com.br/wp-content/uploads/2026/04/Design-sem-nome-39.png"
+    alt="E-mail"
+    className="w-5 h-5"
+  />
+
+  <span>comercial@arkady.com.br</span>
 </a>
 
     <a
   href="https://arkady.com.br"
   target="_blank"
-  className="block text-cyan-400 hover:text-cyan-300 transition"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
 >
-  🌐 arkady.com.br
+  <img
+    src="https://arkady.com.br/wp-content/uploads/2026/04/Design-sem-nome-40.png"
+    alt="Website"
+    className="w-5 h-5"
+  />
+
+  <span>arkady.com.br</span>
 </a>
 
   </div>
