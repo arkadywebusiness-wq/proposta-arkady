@@ -1,6 +1,21 @@
 export default function FolderArkady() {
   const packages = [
     {
+  title: "Plano MEI Crescimento",
+  price: "R$ 149,90",
+  description:
+    "Estrutura contábil e digital para MEIs que desejam crescer com organização, previsibilidade e apoio estratégico.",
+  features: [
+    "Abertura e regularização MEI",
+    "Emissão e suporte fiscal",
+    "Organização financeira inicial",
+    "Estrutura digital profissional",
+    "Orientação para crescimento",
+    "Planejamento para migração ME → EPP",
+    "Acompanhamento operacional",
+  ],
+},
+    {
       title: 'Plano Essencial',
       price: 'R$ 449,90/mês',
       items: [
@@ -101,7 +116,7 @@ export default function FolderArkady() {
             </h3>
 
             <p className="text-zinc-300 leading-relaxed text-lg">
-              Empresas de arquitetura frequentemente enfrentam desafios relacionados à
+              Empresas de qualquer porte, frequentemente enfrentam desafios relacionados à
               organização documental, previsibilidade tributária e controle operacional.
               Pensando nisso, a Arkady busca oferecer uma estrutura evolutiva de apoio,
               respeitando o estágio atual de cada empresa.
