@@ -218,13 +218,13 @@ export default function FolderArkady() {
     Estrutura Operacional, Contábil e Digital
   </p>
 
-  <div className="mt-8 space-y-3 text-zinc-300">
+  <div  className="mt-8 space-y-4 flex flex-col items-center text-gray-300">"
 
    <p className="flex items-center gap-2">
   <Phone
-  size={18}
-  className="text-cyan-400"
-/>
+    size={18}
+    className="text-cyan-400"
+  />
 
   <span>(11) 93037-4865</span>
 </p>
@@ -234,48 +234,70 @@ export default function FolderArkady() {
   className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
 >
   <Mail
-  size={18}
-  className="text-cyan-400"
-/>
+    size={18}
+    className="text-cyan-400"
+  />
 
   <span>comercial@arkady.com.br</span>
 </a>
-
-    <a
+   <a
   href="https://arkady.com.br"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
 >
   <Globe
-  size={18}
-  className="text-cyan-400"
-/>
+    size={18}
+    className="text-cyan-400"
+  />
 
   <span>arkady.com.br</span>
 </a>
 
   </div>
 
-  <div className="flex justify-center py-10">
-    <a
-      href="https://wa.me/551195999-2286"
-      target="_blank"
-      className="inline-flex items-center justify-center px-8 py-4 rounded-2xl bg-cyan-400 text-black font-bold text-lg hover:scale-105 transition-all duration-300 shadow-2xl shadow-cyan-500/30"
-    >
-      Renato Vitorino
-    </a>
-  </div>
+  <div className="mt-6 flex flex-col items-center gap-5">
 
-</footer>
-      <div className="flex justify-center py-10">
   <a
+    href="https://wa.me/5511959992286"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center justify-center gap-3
+      px-8 py-4
+      rounded-2xl
+      bg-green-500 hover:bg-green-400
+      text-black font-bold text-lg
+      transition-all duration-300
+      hover:scale-105
+      shadow-lg hover:shadow-green-500/40
+    "
+  >
+    <MessageCircle size={22} />
+
+    Renato Vitorino
+  </a>
+
+   <a
     href="https://wa.me/5511930374865"
     target="_blank"
-    className="inline-flex items-center justify-center px-8 py-4 rounded-2xl bg-cyan-400 text-black font-bold text-lg hover:scale-105 transition-all duration-300 shadow-2xl shadow-cyan-500/30"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center justify-center gap-3
+      px-8 py-4
+      rounded-2xl
+      bg-green-500 hover:bg-green-400
+      text-black font-bold text-lg
+      transition-all duration-300
+      hover:scale-105
+      shadow-lg hover:shadow-green-500/40
+    "
   >
+    <MessageCircle size={22} />
+
     Falar com a Arkady
   </a>
+
 </div>
     </div>
   )
