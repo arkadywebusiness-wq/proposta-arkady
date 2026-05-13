@@ -145,10 +145,50 @@ export default function FolderArkady() {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className="relative rounded-3xl border border-cyan-500/20 bg-gradient-to-b from-zinc-900 to-black p-8 shadow-2xl hover:scale-[1.02] transition-all duration-300"
+              className={`
+  relative rounded-3xl
+  border
+  p-8
+  transition-all duration-300
+  hover:scale-[1.02]
+
+  ${
+    index === 3
+      ? `
+        lg:col-span-3
+        max-w-4xl
+        mx-auto
+        w-full
+        border-cyan-400/40
+        bg-gradient-to-br from-zinc-900 via-black to-cyan-950/30
+        shadow-[0_0_50px_rgba(34,211,238,0.15)]
+      `
+      : `
+        border-cyan-500/20
+        bg-gradient-to-b from-zinc-900 to-black
+        shadow-2xl
+      `
+  }
+`}
             >
               <div className="absolute top-0 left-0 w-full h-1 bg-cyan-400 rounded-t-3xl" />
-
+{index === 3 && (
+  <div className="absolute top-6 right-6">
+    <span className="
+      px-4 py-2
+      rounded-full
+      bg-cyan-400/10
+      border border-cyan-400/30
+      text-cyan-300
+      text-sm
+      font-semibold
+      tracking-wide
+      backdrop-blur-sm
+    ">
+      Estrutura Completa
+    </span>
+  </div>
+)}
               <h3 className="text-3xl font-bold text-white mb-4">
                 {pkg.title}
               </h3>
@@ -171,6 +211,31 @@ export default function FolderArkady() {
                   </li>
                 ))}
               </ul>
+              {index === 3 && (
+  <div className="mt-10 flex justify-center">
+    <a
+      href="https://wa.me/5511930374865"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        inline-flex items-center gap-3
+        px-8 py-4
+        rounded-2xl
+        bg-cyan-400 hover:bg-cyan-300
+        text-black
+        font-bold
+        text-lg
+        transition-all duration-300
+        hover:scale-105
+        shadow-[0_0_30px_rgba(34,211,238,0.35)]
+      "
+    >
+      <MessageCircle size={22} />
+
+      Solicitar Estrutura Completa
+    </a>
+  </div>
+)}
             </div>
           ))}
         </div>
@@ -218,7 +283,7 @@ export default function FolderArkady() {
     Estrutura Operacional, Contábil e Digital
   </p>
 
-  <div  className="mt-8 space-y-4 flex flex-col items-center text-gray-300">"
+  <div  className="mt-8 space-y-4 flex flex-col items-center text-gray-300">
 
    <p className="flex items-center gap-2">
   <Phone
@@ -266,16 +331,19 @@ export default function FolderArkady() {
       inline-flex items-center justify-center gap-3
       px-8 py-4
       rounded-2xl
-      bg-blue-500 hover:bg-green-400
-      text-black font-bold text-lg
+      bg-green-500 hover:bg-green-400
+      text-white font-bold text-lg
       transition-all duration-300
       hover:scale-105
       shadow-lg hover:shadow-green-500/40
     "
   >
-    <MessageCircle size={22} />
+    <MessageCircle
+  size={22}
+  className="text-white"
+/>
 
-    Falar no Whatsapp
+    Falar com Renato Vitorino
   </a>
 
    <a
@@ -287,18 +355,24 @@ export default function FolderArkady() {
       px-8 py-4
       rounded-2xl
       bg-green-500 hover:bg-green-400
-      text-black font-bold text-lg
+      text-white font-bold text-lg
       transition-all duration-300
       hover:scale-105
       shadow-lg hover:shadow-green-500/40
     "
   >
-    <MessageCircle size={22} />
+      <MessageCircle
+  size={22}
+  className="text-white"
+/>
 
-    Falar com a Arkady
-  </a>
+  Falar com a Arkady
+</a>
 
 </div>
-    </div>
-  )
+
+</footer>
+
+</div>
+)
 }
