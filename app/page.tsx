@@ -266,7 +266,7 @@ export default function FolderArkady() {
       inline-flex items-center justify-center gap-3
       px-8 py-4
       rounded-2xl
-      bg-green-500 hover:bg-green-400
+      bg-blue-500 hover:bg-green-400
       text-black font-bold text-lg
       transition-all duration-300
       hover:scale-105
@@ -275,7 +275,7 @@ export default function FolderArkady() {
   >
     <MessageCircle size={22} />
 
-    Renato Vitorino
+    Falar no Whatsapp
   </a>
 
    <a
